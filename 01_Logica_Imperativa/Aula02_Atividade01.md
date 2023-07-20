@@ -25,7 +25,7 @@ altura : real
 
 endereco : carácter
 
-## #2 - utilização do comando de atribuição, apresentando identificador e dado.
+## #3 - utilização do comando de atribuição, apresentando identificador e dado.
 nome <- "José Almeida da Silva"
 
 cpf <- 12345678900
