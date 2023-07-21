@@ -5,7 +5,7 @@ Aluno: Cleverson Guandalin
 ---
 ## Algoritmo para descobrir em qual área do restaurante o cliente será alocado
 
-```sh
+```javascript
 var
     fumanteOuPet: caractere
     numPessoas: inteiro
