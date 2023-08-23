@@ -1,4 +1,4 @@
-# #  HTML/CSS  - Aula 02
+# HTML/CSS  - Aula 02
 ## 📄 Atividade 01 - Entender como criar o corpo de uma página. . 
 **Aluno:** Cleverson Guandalin
 
@@ -8,8 +8,6 @@ Este projeto consiste na criação de uma página sobre lugares turísticos na E
 
 ## Funcionalidades
 - Apresentação de informações sobre cada destino turístico, incluindo uma imagem ilustrativa e uma breve descrição.
-  
-- Navegação entre diferentes seções da página por meio de um menu de navegação.
 
 ## Código do arquivo index.html
 ```html
@@ -73,6 +71,4 @@ Este projeto consiste na criação de uma página sobre lugares turísticos na E
 
 ## Capturas de tela da página
 ### Página inicial
-
-![Página inicial EuroAdventures](.\EuroAdventuresIndex.png)
----
+<img src=".\EuroAdventuresIndex.png" width=800 alt="Roma">
