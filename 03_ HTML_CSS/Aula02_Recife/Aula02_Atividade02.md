@@ -61,4 +61,4 @@ Este projeto consiste na criação de uma página sobre o Marco Zero, um ponto t
 
 ## Capturas de tela da página
 ### Página inicial
-<img src=".\RecifeIndex.png" width=800 alt="Roma">
+<img src=".\RecifeIndex.png" width=800 alt="Recife Index">
