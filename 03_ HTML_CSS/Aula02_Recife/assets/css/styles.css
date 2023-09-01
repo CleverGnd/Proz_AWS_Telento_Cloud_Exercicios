@@ -1,0 +1,54 @@
+body {
+    background-color: #535DA2;
+    font-family: 'Boogaloo', cursive;
+}
+
+header {
+    padding: 1rem;
+    align-items: center;
+}
+
+main {
+    background-color: #14B78A;
+    color: #fff;
+    padding: 2rem;
+}
+
+img {
+    border-radius: 1rem;
+    margin: 3rem;
+}
+
+h1 {
+    margin: 1.5rem;
+    text-align: center;
+    color: #FF9A55;
+}
+
+h2 {
+    margin: 1rem;
+    text-align: center;
+    color: #FFEA6C;
+}
+
+a {
+    text-decoration: none;
+    color: #FF6700;
+}
+
+p {
+    padding: 1rem;
+    text-align: justify;
+}
+
+footer {
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Common styles */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
