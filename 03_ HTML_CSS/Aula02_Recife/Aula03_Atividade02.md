@@ -3,7 +3,7 @@
 **Aluno:** Cleverson Guandalin
 
 ---
-# Marco Zero - Recife - Agora com CSS!
+# Marco Zero - Recife - Agora com CSS e Flex Box!
 Após aprender as propriedades básicas da CSS, foi possível aprimorar a atividade anterior aplicando estilos para a página Marco Zero. As seguintes alterações foram desenvolvidas:
 
 - Definir uma cor de fundo e uma fonte para o corpo da página.
@@ -12,27 +12,43 @@ Após aprender as propriedades básicas da CSS, foi possível aprimorar a ativid
 - Definir cores e estilos para os títulos e outros elementos de texto.
 
 
-## Código do arquivo styles.css
+## Código do arquivo styles.css usando o flex box
 ```css
 body {
     background-color: #535DA2;
     font-family: 'Boogaloo', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     padding: 1rem;
     align-items: center;
+    width: 100%;
 }
 
 main {
     background-color: #14B78A;
     color: #fff;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 img {
     border-radius: 1rem;
     margin: 3rem;
+    align-self: center;
 }
 
 h1 {
@@ -60,6 +76,7 @@ p {
 footer {
     color: #fff;
     padding: 1rem;
+    width: 100%;
 }
 
 /* Common styles */
@@ -69,9 +86,10 @@ footer {
     margin: 0 auto;
 }
 
+
 ```
 
 ## Capturas de tela da página
 
-### Página Marco Zero, com CSS
-<img src=".\RecifeIndexCSS.png" width=800 alt="Recife Antigo">
+### Página Marco Zero, com CSS e Flex Box
+<img src=".\RecifeIndexCSSFlex.png" width=800 alt="Recife Antigo">

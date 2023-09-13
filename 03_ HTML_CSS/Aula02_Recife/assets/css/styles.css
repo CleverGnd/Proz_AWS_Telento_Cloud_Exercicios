@@ -1,22 +1,38 @@
 body {
     background-color: #535DA2;
     font-family: 'Boogaloo', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     padding: 1rem;
     align-items: center;
+    width: 100%;
 }
 
 main {
     background-color: #14B78A;
     color: #fff;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 img {
     border-radius: 1rem;
     margin: 3rem;
+    align-self: center;
 }
 
 h1 {
@@ -44,6 +60,7 @@ p {
 footer {
     color: #fff;
     padding: 1rem;
+    width: 100%;
 }
 
 /* Common styles */
