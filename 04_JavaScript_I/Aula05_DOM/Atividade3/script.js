@@ -1,12 +1,21 @@
-const titulo = document.getElementById('titulo')
-titulo.innerText = 'Atividade Usando innerText'
+let titulo = document.createElement('h1')
 
-const link = document.querySelector('a')
-link.innerText = 'Proz Educação'
+titulo.id = 'titulo'
+titulo.innerText = 'Polos DOM'
 
-const listaNaoOrdenada = document.querySelector('ul')
-listaNaoOrdenada.innerHTML = '<li>Item 1</li><li>Item 2</li><li>Item 3</li>'
+let body = document.querySelector('body')
 
-const listaOrdenada = document.getElementById('lista-ordenada')
-listaOrdenada.innerHTML =
-  "<li><a href='https://prozeducacao.com.br'>Proz Educação</a></li><li><a href='https://www.linkedin.com/in/cleversonguandalin/'>Meu LinkedIn</a></li><li><a href='https://github.com/CleverGnd'>Meu GitHub</a></li>"
+body.appendChild(titulo)
+
+let produto = document.createElement('div')
+
+produto.innerHTML = `
+  <div>
+    <h2>Camisa Polo Vermelha</h2>
+    <img src="https://www.jardelatacadao.com.br/lojas/00050181/prod/camisa_polo_50_algodao_50_dry_tradicional_jardel_vermelho_jardel_atacadao_000041J.jpg" alt="x-salada">
+    <p>Camisa polo vermelha masculina.</p>
+    <p id="valor_camisa_vermelha">R$ 99.90</p>
+  </div>
+`
+
+body.appendChild(produto)
