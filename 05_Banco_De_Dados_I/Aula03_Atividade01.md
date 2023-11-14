@@ -5,32 +5,19 @@ Aluno: Cleverson Guandalin
 ---
 # Códigos SQL
 
-## Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7,0;
+  1. crie uma tabela chamada ALUNO;  
+  2. defina os atributos da tabela;
+  3. adicione a chave primária de nome ID (identificador);
+  4. adicione um atributo nome do tipo varchar;
+  5. adicione um atributo e-mail do tipo varchar;
+  6. adicione um atributo endereço do tipo varchar.
 
 ```SQL
-SELECT * FROM ALUNO WHERE NOTA > 7.0;
-```
-
-## Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0;
-
-```SQL
-SELECT * FROM ALUNO WHERE ANO = 1 AND NOTA >= 8.0;
-```
-
-
-## Exiba apenas os nomes e as notas dos alunos;
-
-```SQL
-SELECT NOME, NOTA FROM ALUNO;
-```
-
-## Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor;
-
-```SQL
-CREATE TABLE PROFESSOR (
-  ID INT NOT NULL,
-  PNome VARCHAR(255) NOT NULL,
-  UNome VARCHAR(255) NOT NULL,
-  PRIMARY KEY (ID)
+CREATE TABLE ALUNO (
+    ID SERIAL PRIMARY KEY,
+    Nome VARCHAR(255),
+    Matricula VARCHAR(20),
+    Email VARCHAR(255),
+    Endereco VARCHAR(255),
 );
 ```
